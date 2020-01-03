@@ -5,7 +5,6 @@ import io.micrometer.core.instrument.binder.okhttp3.OkHttpMetricsEventListener;
 import io.micrometer.jmx.JmxConfig;
 import io.micrometer.jmx.JmxMeterRegistry;
 import java.net.SocketTimeoutException;
-import java.net.UnknownHostException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;

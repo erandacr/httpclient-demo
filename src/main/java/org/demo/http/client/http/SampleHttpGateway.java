@@ -25,7 +25,7 @@ public class SampleHttpGateway {
     public String getContent() throws URISyntaxException {
 
         // example endpoint
-        String endpoint = "http://www.googleeeeexxxddd.com";
+        String endpoint = "http://www.google.com";
 
         HttpEntity<?> entity = new HttpEntity<>(new HttpHeaders());
         return execute(new URI(endpoint), HttpMethod.GET, entity, String.class).getBody();
